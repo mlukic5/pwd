@@ -1,0 +1,22 @@
+{
+    "name": "manue/pwd",
+    "description": "A password library",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Manue\\Pwd\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Manuel Lukic",
+            "email": "mlukic@schueler.hakzell.at"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "hackzilla/password-generator": "dev-master",
+        "php": ">=8.0"
+    }
+}
